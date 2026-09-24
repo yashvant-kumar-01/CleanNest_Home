@@ -33,21 +33,7 @@ const Navbar = () => {
 
   return (
     <header className="sticky top-0 z-50 glass-nav border-b border-slate-200/80 shadow-xs transition-all">
-      {/* Top emergency contact banner */}
-      <div className="bg-slate-900 text-slate-300 text-xs py-1.5 px-4">
-        <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center">
-          <div className="flex items-center space-x-4">
-            <span className="flex items-center text-teal-400">
-              <PhoneCall className="w-3.5 h-3.5 mr-1" />
-              +91 98790 12345 (Ahmedabad Helpline)
-            </span>
-            <span className="hidden md:inline text-slate-400">| Serving All Major Areas in Ahmedabad</span>
-          </div>
-          <div className="flex items-center space-x-3 text-slate-400">
-            <span>Mon - Sat: 8:00 AM - 8:00 PM</span>
-          </div>
-        </div>
-      </div>
+
 
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 flex items-center justify-between">
         {/* Brand Logo */}
